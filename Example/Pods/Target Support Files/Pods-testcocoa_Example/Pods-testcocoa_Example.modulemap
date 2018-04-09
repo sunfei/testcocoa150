@@ -1,0 +1,6 @@
+module Pods_testcocoa_Example [system] {
+  umbrella header "Pods-testcocoa_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

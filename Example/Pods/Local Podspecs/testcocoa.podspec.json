@@ -1,0 +1,22 @@
+{
+  "name": "testcocoa",
+  "version": "0.1.0",
+  "summary": "A short description of testcocoa.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/sunfei_fish@sina.cn/testcocoa",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "sunfei_fish@sina.cn": "sf@meitu.com"
+  },
+  "source": {
+    "git": "https://github.com/sunfei_fish@sina.cn/testcocoa.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "testcocoa/Classes/**/*"
+}
