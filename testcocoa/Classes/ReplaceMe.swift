@@ -4,6 +4,7 @@ public class Sunfei: NSObject {
   
   let name: String
   
+  @objc
   public init(name: String) {
     self.name = name
   }
