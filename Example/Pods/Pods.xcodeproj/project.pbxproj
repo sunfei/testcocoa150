@@ -36,7 +36,7 @@
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6C78A68E896917F3EAEEAEF0A2265D7A /* libPods-testcocoa_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-testcocoa_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B87B3C601DD45911378D39294703F09 /* Pods-testcocoa_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-testcocoa_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		85C8FC4ABCEAC6193755B720DA455F49 /* testcocoa.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = testcocoa.podspec; sourceTree = "<group>"; };
+		85C8FC4ABCEAC6193755B720DA455F49 /* Testcocoa.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = Testcocoa.podspec; sourceTree = "<group>"; };
 		8AFE5884D00260A3A63D35795A6A1989 /* Pods-testcocoa_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-testcocoa_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		918FC67C70EC98397A1384FFE5691D3E /* Pods-testcocoa_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-testcocoa_Example-frameworks.sh"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -136,7 +136,7 @@
 			children = (
 				48FA22F28E00B3567BAF921A758EEE7C /* LICENSE */,
 				F2AE85A6877560ADB9D98945429A3E86 /* README.md */,
-				85C8FC4ABCEAC6193755B720DA455F49 /* testcocoa.podspec */,
+				85C8FC4ABCEAC6193755B720DA455F49 /* Testcocoa.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
