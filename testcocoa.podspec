@@ -15,10 +15,11 @@ Pod::Spec.new do |s|
 test cocoa 150jjjj
                        DESC
 
-  s.homepage         = 'http://www.baidu.com'
+  s.homepage         = 'https://www.baidu.com'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'sunfei_fish@sina.cn' => 'sf@meitu.com' }
-  s.source           = { :git => 'https://github.com/sunfei_fish@sina.cn/testcocoa.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/sunfei/testcocoa150.git', :tag => s.version.to_s }
+  s.swift_version = '4.1'
 
   s.ios.deployment_target = '8.0'
 
