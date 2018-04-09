@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'testcocoa'
+  s.name             = 'Testcocoa'
   s.version          = '0.3.0'
   s.summary          = 'test cocoa'
 
@@ -20,7 +20,6 @@ test cocoa 150jjjj
   s.author           = { 'sunfei_fish@sina.cn' => 'sf@meitu.com' }
   s.source           = { :git => 'https://github.com/sunfei/testcocoa150.git', :tag => s.version.to_s }
   s.swift_version = '4.1'
-  s.module_name = 'TestCocoa'
 
   s.ios.deployment_target = '8.0'
 
