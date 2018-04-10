@@ -1,6 +1,0 @@
-module testcocoa [system] {
-  umbrella header "testcocoa-umbrella.h"
-
-  export *
-  module * { export * }
-}

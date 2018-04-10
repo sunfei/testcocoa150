@@ -1,16 +1,16 @@
 PODS:
-  - testcocoa (0.1.0)
+  - Testcocoa2 (0.5.0)
 
 DEPENDENCIES:
-  - testcocoa (from `../`)
+  - Testcocoa2 (from `../`)
 
 EXTERNAL SOURCES:
-  testcocoa:
+  Testcocoa2:
     :path: "../"
 
 SPEC CHECKSUMS:
-  testcocoa: fc053ee2b7676ed0f729ac20e9e8ab3ae1dfb883
+  Testcocoa2: c784cc253937305580668dec918c8a8896effbed
 
-PODFILE CHECKSUM: deaa9dff0d6996b951f3a14d13336d58a6a0e378
+PODFILE CHECKSUM: 03e390407470d318213960a10feba939aaae8c3c
 
 COCOAPODS: 1.5.0

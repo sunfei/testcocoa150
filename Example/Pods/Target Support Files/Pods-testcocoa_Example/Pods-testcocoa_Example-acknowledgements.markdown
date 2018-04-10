@@ -1,7 +1,7 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## testcocoa
+## Testcocoa2
 
 Copyright (c) 2018 sunfei_fish@sina.cn <sf@meitu.com>
 

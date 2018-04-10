@@ -1,5 +1,5 @@
 
 target 'testcocoa_Example' do
-  pod 'testcocoa', :path => '../'
+  pod 'Testcocoa2', :path => '../'
 
 end

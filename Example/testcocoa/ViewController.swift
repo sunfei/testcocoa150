@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import testcocoa
+import Testcocoa2
 
 class ViewController: UIViewController {
   
