@@ -7,7 +7,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Testcocoa2-Swift.h"
 
 @interface sdf : NSObject
 

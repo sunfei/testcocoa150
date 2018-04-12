@@ -1,4 +1,4 @@
-module Testcocoa2 [system] {
+module testcocoa [system] {
   umbrella header "Testcocoa2-umbrella.h"
 
   export *

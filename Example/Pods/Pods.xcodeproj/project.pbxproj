@@ -7,14 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		20114627369918BF77DA87368A69B9E3 /* Testcocoa2-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FC15F1D609FDF8BF59590E50B509E719 /* Testcocoa2-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0144A5099F307B93CB4C9DCEC1420F30 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB730CF83CC7E016E74CBA5678472948 /* ReplaceMe.swift */; };
+		3264C7C7BE21937948C592693ED0E538 /* Testcocoa2-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B37F6858CBC67B3F6F51978BB2455FC /* Testcocoa2-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		34569FD513E1FC8635037C6C88482C04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		7317BA2E4636C3C568BEC9B8F96814FF /* Testcocoa2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 84071359C9D081477EE327C88145C4DD /* Testcocoa2-dummy.m */; };
+		793948A86857DC7532C55803406453E3 /* Interface.h in Headers */ = {isa = PBXBuildFile; fileRef = 13E619083F5B8283096B3D03018887D9 /* Interface.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		7D8CE7FB4DAA2BF21A57B2DA08BBAE2B /* Pods-testcocoa_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 404F43684741D81282C4515CBC15CB58 /* Pods-testcocoa_Example-dummy.m */; };
+		A980879DE360C20E1EE4453970A63FB1 /* Testcocoa2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F36CAAD69C59EA9B4AD5ABDB06D03B0 /* Testcocoa2-dummy.m */; };
 		BEE525BA84F222EFE0390BB88B22C3A4 /* Pods-testcocoa_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C1DFCD59149AAA06A6D9666A2443E487 /* Pods-testcocoa_Example-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C8BA632FA765B7CB499CE9E34DFA2744 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E6DD2AACF79574F431E06E2CE51374 /* ReplaceMe.swift */; };
 		DB19C7BE4D04DAE296569CA6928B6738 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		E87B9B35919BD79F2BDFA09766C11B8C /* dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A9D095524C36FA6E6E3EA015B635F79 /* dummy.m */; };
+		F59805AB7BA7C9E29790C1A441350A35 /* Interface.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DD32C3F98D26A359F0D6076276400D3 /* Interface.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,28 +30,29 @@
 
 /* Begin PBXFileReference section */
 		10B94CC2731F16CB958D06D122471353 /* libTestcocoa2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libTestcocoa2.a; path = libTestcocoa2.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		13E619083F5B8283096B3D03018887D9 /* Interface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Interface.h; path = testcocoa/Classes/Interface.h; sourceTree = "<group>"; };
 		1A3F4612FE120370AEAE9C775DA28E34 /* libPods-testcocoa_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-testcocoa_Example.a"; path = "libPods-testcocoa_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1A9D095524C36FA6E6E3EA015B635F79 /* dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = dummy.m; path = testcocoa/Classes/dummy.m; sourceTree = "<group>"; };
-		24F10E9898C94A16FEC3A20A23F5BF32 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		2D98100F40B2C79BA22C33F7410BA8EA /* Testcocoa2.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = Testcocoa2.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		3142B885CA0E43C81B3CCB2D36F7CB34 /* Testcocoa2-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Testcocoa2-prefix.pch"; sourceTree = "<group>"; };
+		3F36CAAD69C59EA9B4AD5ABDB06D03B0 /* Testcocoa2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Testcocoa2-dummy.m"; sourceTree = "<group>"; };
 		404F43684741D81282C4515CBC15CB58 /* Pods-testcocoa_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-testcocoa_Example-dummy.m"; sourceTree = "<group>"; };
+		45BC5DC7D8A0DDE428889CBA007FBC77 /* Testcocoa2.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Testcocoa2.xcconfig; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7317124EFE378554E1D909EE746A2ADF /* Testcocoa2.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = Testcocoa2.modulemap; path = ../../Headers/Public/Testcocoa2/Testcocoa2.modulemap; sourceTree = "<group>"; };
+		6B37F6858CBC67B3F6F51978BB2455FC /* Testcocoa2-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Testcocoa2-umbrella.h"; path = "../../Headers/Public/testcocoa/Testcocoa2-umbrella.h"; sourceTree = "<group>"; };
 		7B87B3C601DD45911378D39294703F09 /* Pods-testcocoa_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-testcocoa_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		81E6DD2AACF79574F431E06E2CE51374 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = testcocoa/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		84071359C9D081477EE327C88145C4DD /* Testcocoa2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Testcocoa2-dummy.m"; sourceTree = "<group>"; };
+		7DD32C3F98D26A359F0D6076276400D3 /* Interface.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Interface.m; path = testcocoa/Classes/Interface.m; sourceTree = "<group>"; };
 		8AFE5884D00260A3A63D35795A6A1989 /* Pods-testcocoa_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-testcocoa_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		90082D29CC68162AB16861B6D3E0C3A3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		918FC67C70EC98397A1384FFE5691D3E /* Pods-testcocoa_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-testcocoa_Example-frameworks.sh"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E096EDAB73F264BEA909DE6415E931D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		AD12BC4595FCB4E00F27A895171975A3 /* Testcocoa2.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = Testcocoa2.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B29C90058CED2CB7C3435591E854C4CC /* Pods-testcocoa_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-testcocoa_Example-resources.sh"; sourceTree = "<group>"; };
 		B654080964852D325D9750F87199E4AF /* Pods-testcocoa_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-testcocoa_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		BB730CF83CC7E016E74CBA5678472948 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = testcocoa/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		C1A69EF1DEA244556531D64C04DE9B82 /* Pods-testcocoa_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-testcocoa_Example.modulemap"; sourceTree = "<group>"; };
 		C1DFCD59149AAA06A6D9666A2443E487 /* Pods-testcocoa_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-testcocoa_Example-umbrella.h"; sourceTree = "<group>"; };
+		D2B183D9A286908283B54A915ACE7843 /* Testcocoa2-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Testcocoa2-prefix.pch"; sourceTree = "<group>"; };
 		D36D525C3B47B66DB725DD247FA75412 /* Pods-testcocoa_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-testcocoa_Example.release.xcconfig"; sourceTree = "<group>"; };
-		DBAF36EABF0F6FA7A1DAB892EF8D884F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		DBCA60C22D71F2C53B7E3B7CD4B08A8A /* Testcocoa2.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Testcocoa2.xcconfig; sourceTree = "<group>"; };
-		FC15F1D609FDF8BF59590E50B509E719 /* Testcocoa2-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Testcocoa2-umbrella.h"; path = "../../Headers/Public/Testcocoa2/Testcocoa2-umbrella.h"; sourceTree = "<group>"; };
+		E77C2A8C5E1492A1192047BF99DE8A41 /* Testcocoa2.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = Testcocoa2.modulemap; path = ../../Headers/Public/testcocoa/Testcocoa2.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,37 +75,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		076592958B0BC31FB8392BB63E32F6FE /* Development Pods */ = {
+		19F935033748277C2BACB5A359E5D2B1 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				3EBC422E69F2C117113C321BBD0AE97F /* Testcocoa2 */,
+				90082D29CC68162AB16861B6D3E0C3A3 /* LICENSE */,
+				9E096EDAB73F264BEA909DE6415E931D /* README.md */,
+				AD12BC4595FCB4E00F27A895171975A3 /* Testcocoa2.podspec */,
 			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		0F72F665729DA929B09C9D05DA111FE8 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				7317124EFE378554E1D909EE746A2ADF /* Testcocoa2.modulemap */,
-				DBCA60C22D71F2C53B7E3B7CD4B08A8A /* Testcocoa2.xcconfig */,
-				84071359C9D081477EE327C88145C4DD /* Testcocoa2-dummy.m */,
-				3142B885CA0E43C81B3CCB2D36F7CB34 /* Testcocoa2-prefix.pch */,
-				FC15F1D609FDF8BF59590E50B509E719 /* Testcocoa2-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Testcocoa2";
-			sourceTree = "<group>";
-		};
-		3EBC422E69F2C117113C321BBD0AE97F /* Testcocoa2 */ = {
-			isa = PBXGroup;
-			children = (
-				1A9D095524C36FA6E6E3EA015B635F79 /* dummy.m */,
-				81E6DD2AACF79574F431E06E2CE51374 /* ReplaceMe.swift */,
-				4F65346A890456636F952146BDFCCD07 /* Pod */,
-				0F72F665729DA929B09C9D05DA111FE8 /* Support Files */,
-			);
-			name = Testcocoa2;
-			path = ../..;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		4A3D829BEA336FEED9F5AAE0F36E616C /* Pods-testcocoa_Example */ = {
@@ -123,14 +102,17 @@
 			path = "Target Support Files/Pods-testcocoa_Example";
 			sourceTree = "<group>";
 		};
-		4F65346A890456636F952146BDFCCD07 /* Pod */ = {
+		4F4FBC3B1D3EFB4C73C2A4BB01D518BC /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				DBAF36EABF0F6FA7A1DAB892EF8D884F /* LICENSE */,
-				24F10E9898C94A16FEC3A20A23F5BF32 /* README.md */,
-				2D98100F40B2C79BA22C33F7410BA8EA /* Testcocoa2.podspec */,
+				E77C2A8C5E1492A1192047BF99DE8A41 /* Testcocoa2.modulemap */,
+				45BC5DC7D8A0DDE428889CBA007FBC77 /* Testcocoa2.xcconfig */,
+				3F36CAAD69C59EA9B4AD5ABDB06D03B0 /* Testcocoa2-dummy.m */,
+				D2B183D9A286908283B54A915ACE7843 /* Testcocoa2-prefix.pch */,
+				6B37F6858CBC67B3F6F51978BB2455FC /* Testcocoa2-umbrella.h */,
 			);
-			name = Pod;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Testcocoa2";
 			sourceTree = "<group>";
 		};
 		5FF4D886074474A459D99725F7FE976F /* Products */ = {
@@ -146,11 +128,32 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				076592958B0BC31FB8392BB63E32F6FE /* Development Pods */,
+				B29968915EBD4B6863C300380150D844 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				5FF4D886074474A459D99725F7FE976F /* Products */,
 				F893E54CD10289923BC4683B2F8556C7 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		8E95F7E7C12FA6899ECBEE76D16CACFE /* Testcocoa2 */ = {
+			isa = PBXGroup;
+			children = (
+				13E619083F5B8283096B3D03018887D9 /* Interface.h */,
+				7DD32C3F98D26A359F0D6076276400D3 /* Interface.m */,
+				BB730CF83CC7E016E74CBA5678472948 /* ReplaceMe.swift */,
+				19F935033748277C2BACB5A359E5D2B1 /* Pod */,
+				4F4FBC3B1D3EFB4C73C2A4BB01D518BC /* Support Files */,
+			);
+			name = Testcocoa2;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B29968915EBD4B6863C300380150D844 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E95F7E7C12FA6899ECBEE76D16CACFE /* Testcocoa2 */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -180,11 +183,12 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		6485A3A632ECE60D1D99204CDDB6413F /* Headers */ = {
+		A60720DE7B89164C67A4D2C1C5D110B3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20114627369918BF77DA87368A69B9E3 /* Testcocoa2-umbrella.h in Headers */,
+				793948A86857DC7532C55803406453E3 /* Interface.h in Headers */,
+				3264C7C7BE21937948C592693ED0E538 /* Testcocoa2-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,10 +207,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6879953469143974E276E0ED13307F5C /* Build configuration list for PBXNativeTarget "Testcocoa2" */;
 			buildPhases = (
-				F2C2EDEAFC489072AA44F0943EF0DEB8 /* Sources */,
+				B7E560771831F22D7FBE4BA4722F1817 /* Sources */,
 				8DEC665AE8890153BCBFFCAD51E70000 /* Frameworks */,
-				6485A3A632ECE60D1D99204CDDB6413F /* Headers */,
-				97DD8D2DA7AC7FD431587CFEC53C14BD /* Copy generated compatibility header */,
+				A60720DE7B89164C67A4D2C1C5D110B3 /* Headers */,
+				C5435D9439D25160CE87B8699B6F660F /* Copy generated compatibility header */,
 			);
 			buildRules = (
 			);
@@ -263,15 +267,15 @@
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		97DD8D2DA7AC7FD431587CFEC53C14BD /* Copy generated compatibility header */ = {
+		C5435D9439D25160CE87B8699B6F660F /* Copy generated compatibility header */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
-				"${PODS_ROOT}/Headers/Public/Testcocoa2/Testcocoa2.modulemap",
-				"${PODS_ROOT}/Headers/Public/Testcocoa2/Testcocoa2-umbrella.h",
+				"${PODS_ROOT}/Headers/Public/testcocoa/Testcocoa2.modulemap",
+				"${PODS_ROOT}/Headers/Public/testcocoa/Testcocoa2-umbrella.h",
 			);
 			name = "Copy generated compatibility header";
 			outputPaths = (
@@ -281,7 +285,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/Testcocoa2/Testcocoa2.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/Testcocoa2/Testcocoa2-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/testcocoa/Testcocoa2.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/testcocoa/Testcocoa2-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
 			showEnvVarsInLog = 1;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -295,13 +299,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F2C2EDEAFC489072AA44F0943EF0DEB8 /* Sources */ = {
+		B7E560771831F22D7FBE4BA4722F1817 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E87B9B35919BD79F2BDFA09766C11B8C /* dummy.m in Sources */,
-				C8BA632FA765B7CB499CE9E34DFA2744 /* ReplaceMe.swift in Sources */,
-				7317BA2E4636C3C568BEC9B8F96814FF /* Testcocoa2-dummy.m in Sources */,
+				F59805AB7BA7C9E29790C1A441350A35 /* Interface.m in Sources */,
+				0144A5099F307B93CB4C9DCEC1420F30 /* ReplaceMe.swift in Sources */,
+				A980879DE360C20E1EE4453970A63FB1 /* Testcocoa2-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,6 +321,33 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		189D917F878E023D64FDB0DC7A367525 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45BC5DC7D8A0DDE428889CBA007FBC77 /* Testcocoa2.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Testcocoa2/Testcocoa2-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/testcocoa/Testcocoa2.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = testcocoa;
+				PRODUCT_NAME = Testcocoa2;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		55B90C24E9B39E993E9E162A255F0589 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D36D525C3B47B66DB725DD247FA75412 /* Pods-testcocoa_Example.release.xcconfig */;
@@ -340,32 +371,6 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
-		};
-		7DAA654FFBF6542F617A0CA6D406C4C7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DBCA60C22D71F2C53B7E3B7CD4B08A8A /* Testcocoa2.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/Testcocoa2/Testcocoa2-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MODULEMAP_FILE = Headers/Public/Testcocoa2/Testcocoa2.modulemap;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = Testcocoa2;
-				PRODUCT_NAME = Testcocoa2;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.1;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
 		};
 		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -430,33 +435,6 @@
 			};
 			name = Debug;
 		};
-		9C037FA996386A7079CC627C7F13C6F0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DBCA60C22D71F2C53B7E3B7CD4B08A8A /* Testcocoa2.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/Testcocoa2/Testcocoa2-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MODULEMAP_FILE = Headers/Public/Testcocoa2/Testcocoa2.modulemap;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = Testcocoa2;
-				PRODUCT_NAME = Testcocoa2;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.1;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -515,6 +493,32 @@
 			};
 			name = Release;
 		};
+		BBBFBD2B5101640264B042DAA452DC1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45BC5DC7D8A0DDE428889CBA007FBC77 /* Testcocoa2.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Testcocoa2/Testcocoa2-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/testcocoa/Testcocoa2.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = testcocoa;
+				PRODUCT_NAME = Testcocoa2;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 		D3802750D97E41441534FE0E46FCCB9C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B654080964852D325D9750F87199E4AF /* Pods-testcocoa_Example.debug.xcconfig */;
@@ -554,8 +558,8 @@
 		6879953469143974E276E0ED13307F5C /* Build configuration list for PBXNativeTarget "Testcocoa2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7DAA654FFBF6542F617A0CA6D406C4C7 /* Debug */,
-				9C037FA996386A7079CC627C7F13C6F0 /* Release */,
+				BBBFBD2B5101640264B042DAA452DC1D /* Debug */,
+				189D917F878E023D64FDB0DC7A367525 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

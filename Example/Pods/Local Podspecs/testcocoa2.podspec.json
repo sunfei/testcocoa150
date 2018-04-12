@@ -17,6 +17,10 @@
   },
   "swift_version": "4.1",
   "static_framework": true,
+  "module_name": "testcocoa",
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES"
+  },
   "platforms": {
     "ios": "8.0"
   },

@@ -10,7 +10,8 @@
 #endif
 #endif
 
+#import "Interface.h"
 
-FOUNDATION_EXPORT double Testcocoa2VersionNumber;
-FOUNDATION_EXPORT const unsigned char Testcocoa2VersionString[];
+FOUNDATION_EXPORT double testcocoaVersionNumber;
+FOUNDATION_EXPORT const unsigned char testcocoaVersionString[];
 

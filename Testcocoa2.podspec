@@ -21,10 +21,11 @@ test cocoa 150jjjj
   s.source           = { :git => 'https://github.com/sunfei/testcocoa150.git', :tag => s.version.to_s }
   s.swift_version = '4.1'
   s.static_framework = true
-  #s.module_name = 'Testcocoa'
-  #s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES' }
+  s.module_name = 'testcocoa'
+  s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES' }
 
   s.ios.deployment_target = '8.0'
+  s.swift_version = '4.1'
 
   s.source_files = 'testcocoa/Classes/**/*'
   
